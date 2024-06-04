@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="./task.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+
+            <h1 class="red"><i>My first web page</i></h1>
+    
+        <h2 class="green">What this is</h2>
+        <span>Welcome to my first web page. I created this web page without the assistance of webpage editor. Just my little text editor and a keen <b>understanding of html</b></span>
+        <h2 class="green">Why this is </h2>
+        <ul>
+            <li>To learn HTML</li>
+        <li>List element</li>
+        <ol>
+            <li>Home</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ol>
+        <li>Here I have created ordered and unordered list</li>
+        </ul>
+        <h2 class="green">ZeusLearning.com</h2>
+        <a href="https://zeuslearning.com" target="_blank">This link will open zeuslearning.com in new tab</a>
+        <h2>On click of following image naviagte to Google.com</h2>
+        <a href="https://google.com"><img src="./google.png" alt="" width="160" height="160"></a>
+        <h3>Some random table</h3>
+        <table border="2">
+            <tr>
+                <td>Row1,Cell1</td>
+                <td>Row1,Cell2</td>
+                <td>Row1,Cell3</td>
+
+            </tr>
+            <tr>
+                <td>Row2 ,Cell1</td>
+                <td>Row2 ,Cell2</td>
+                <td>Row2,Cell3</td>
+
+            </tr>
+            <tr>
+                <td>Row3,Cell1</td>
+                <td>Row3,Cell2</td>
+                <td>Row3,Cell3</td>
+
+            </tr>
+        </table>
+        <h3>Some random form</h3>
+        <span>NOTE : It looks the part , but won't do a anything.</span>
+        <form>
+
+            <p>Name :</p>
+            <input type="text" name="name" id="name"  placeholder="Your Name">
+            <p>Comments : </p>
+            <textarea name="" id="comments" cols="30" rows="10" placeholder="Your Comments"></textarea>
+            <p>Are you </p>
+      <p>Male
+        <input type="radio" name="Gender"  id="Male">
+      </p>
+        <p>
+            Female
+            <input type="radio" name="Gender"  id="Female">
+        </p>
+             
+            <button type="button" onclick="formSubmit()">Submit Query</button>
+            <button type="reset">Reset</button>
+        </form>
+        </div>
+</body>
+</html>

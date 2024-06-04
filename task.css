@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(241, 241, 6);
+}
+.green{
+    background-color: rgb(34, 158, 34);
+}
+.red{
+    color: yellow;
+    text-align: center;
+    background-color: rgb(195 14 14);
+    font-family: Roboto;
+    border-bottom: 12px solid rgb(240, 48, 48);
+    
+}
