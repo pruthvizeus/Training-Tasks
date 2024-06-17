@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
 body{
     display: flex;
     justify-content: center;
@@ -30,6 +32,7 @@ body{
     border: 2px solid black;
 }
 .header{
+    background-image: linear-gradient(to right,rgb(11, 61, 224), rgb(24, 73, 236));
       color: white;
       background-color: rgb(34, 81, 211);
       grid-row: 1;
@@ -71,6 +74,8 @@ body{
       background-color: #2196F3;
   }
   .flex-item{
+    font-family:'digital-clock-font';
+
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;

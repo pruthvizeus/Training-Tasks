@@ -1,0 +1,87 @@
+body{
+    font-family: 'Quicksand';
+    background-color: rgb(209, 209, 209);
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.formContainer{
+    background-color: white;
+    padding: 1rem;
+    width: 30%;
+    margin: 3rem;
+    border-top:4px solid rgb(113, 209, 253);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    font-size: 34px;
+}
+#navTop{
+    border-bottom:3px solid rgb(113, 209, 253);
+}
+.radioButtons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.radioButtons input{
+    transform: scale(1.5);
+    
+    margin: 1rem;
+
+}
+.radioButtons{
+    color: green;
+}
+.state{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnBox button{
+    margin-top: 2rem;
+    width: 50%;
+    color: black;
+    background-color: rgb(34, 201, 70);
+}
+
+.districtDrop, .username, .password, .Remember{
+    margin-top: 2rem;
+}
+.stateDrop span{
+    color: grey;
+}
+.districtDrop span{
+    color: grey;
+}
+.username input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.username p{
+    text-align: right;
+    color: green;
+}
+.password p{
+text-align: right;
+color: green;
+}
+.password input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
